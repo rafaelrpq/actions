@@ -1,20 +1,20 @@
-name: phpmd
+name: PHPMD
 
 on: push
 
 jobs:
-phpmd:
-name: PHPMD
-runs-on: ubuntu-latest
-steps:
-- name: Checkout
-uses: actions/checkout@v2
+  phpmd:
+  name: PHPMD
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout
+    uses: actions/checkout@v2
 
-- name: Setup PHP environment
-uses: shivammathur/setup-php@v2
-with:
-  coverage: none
-  tools: phpmd
+    - name: Setup PHP environment
+    uses: shivammathur/setup-php@v2
+    with:
+      coverage: none
+      tools: phpmd
 
-- name: Run PHPMD
-      run: vendor/bin/phpmd . github phpmd.ruleset.xml --exclude 'tests/*,vendor/*'
+    - name: Run PHPMD
+    run: vendor/bin/phpmd . github phpmd.ruleset.xml --exclude 'tests/*,vendor/*'
