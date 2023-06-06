@@ -1,0 +1,19 @@
+{
+    "name": "rafaelrpq/actions",
+    "description": "teste de CI no github actions",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rafaelrpq\\Actions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Quevedo",
+            "email": "rafaelrpq@gmail.com"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
