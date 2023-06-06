@@ -12,7 +12,7 @@
             return $this->telefone;
         }
         public function getEmail () {
-            return $this->email;
+            // return $this->email;
         }
     }
 ?>
