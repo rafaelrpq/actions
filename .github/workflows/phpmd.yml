@@ -1,22 +1,22 @@
 name: phpmd
 
 on:
-    push:
-        branches: [ "main" ]
-        pull_request:
-        branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            uses: actions/checkout@v3
+    steps:
+      - uses: actions/checkout@v3
 
-          - name: Install composer
-            run: composer install
+      - name: Install composer
+        run: composer install
 
-            - name: Run PHPMD
-            run: phpmd . github phpmd.ruleset.xml --exclude 'tests/*,vendor/*'
+        - name: Run PHPMD
+        run: phpmd . github phpmd.ruleset.xml --exclude 'tests/*,vendor/*'
