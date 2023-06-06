@@ -32,4 +32,21 @@ jobs:
       - name: Execute static analysis [phpstan]
         run: vendor/bin/phpstan analyse src/ -l 5 -vvv
 
+    phpmd:
+        name: PHPMD
 
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+            uses: actions/checkout@v2
+
+            - name: Setup PHP environment
+            uses: shivammathur/setup-php@v2
+
+        with:
+          coverage: none
+          tools: phpmd
+
+            - name: Run PHPMD
+            run: phpmd . github phpmd.ruleset.xml --exclude 'tests/*,vendor/*
