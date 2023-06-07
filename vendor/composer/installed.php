@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '53828c37d7751e59cf8a4ea41813ff946a5b83de',
+        'reference' => '4ac1d8b423da37bfe78e1a93e097fb777868861f',
         'name' => 'rafaelrpq/actions',
         'dev' => true,
     ),
@@ -85,7 +85,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '53828c37d7751e59cf8a4ea41813ff946a5b83de',
+            'reference' => '4ac1d8b423da37bfe78e1a93e097fb777868861f',
             'dev_requirement' => false,
         ),
         'symfony/config' => array(

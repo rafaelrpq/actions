@@ -7,7 +7,10 @@
         private string $telefone;
         private string $email;
 
-        public function __construct (array $contato) {
+        /**
+         * @param array<string> $contato
+         */
+        public function __construct (array $contato = []) {
             $this->nome = $contato['nome'];
             $this->endereco = $contato['endereco'];
             $this->telefone = $contato['telefone'];
@@ -55,7 +58,7 @@
             */
         }
 
-        public function example2 () {
+        public function example2 () : void {
             print ('código 239r8-123rmj0-238r0123b0r');
         }
     }
@@ -64,6 +67,6 @@
     $novo = new Contato ([
         'nome' => 'teste',
         'endereco' => 'av 12 de agosto, n 123',
-        'telefone' => '55-98765 4321'
+        'telefone' => '55-98765 4321',
     ]);
 ?>
