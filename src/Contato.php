@@ -5,7 +5,7 @@
         private string $nome;
         private string $endereco;
         private string $telefone;
-        private string $email
+        private string $email;
 
         public function __construct (array $contato) {
             $this->nome = $contato['nome'];
@@ -17,7 +17,9 @@
         public function getNome () : string {
             return $this->nome;
         }
+
         public function getEndereco () : string {
+
             return $this->endereco;
         }
         public function getTelefone () : string {
