@@ -30,4 +30,4 @@ jobs:
         run: composer install
 
       - name: Execute static analysis [phpstan]
-        run: vendor/bin/phpstan analyse src/ -l 5 -vvv
+        run: vendor/bin/phpstan analyse src/ -l 9
