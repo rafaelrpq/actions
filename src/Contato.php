@@ -1,6 +1,18 @@
 <?php
     class Contato {
-        public function __construct (private string $nome, private string $endereco, private string $telefone, private string $email) {}
+        // public function __construct (private string $nome, private string $endereco, private string $telefone, private string $email) {}
+
+        private string $nome;
+        private string $endereco;
+        private string $telefone;
+        private string $email
+
+        public function __construct (array $contato) {
+            $this->nome = $contato['nome'];
+            $this->endereco = $contato['endereco'];
+            $this->telefone = $contato['telefone'];
+            $this->email = $contato['email'];
+        }
 
         public function getNome () : string {
             return $this->nome;
@@ -41,47 +53,15 @@
             */
         }
 
-
-        // public function example1 () {
-        //     if ($a == $b) {
-        //         if ($a1 == $b1) {
-        //             fiddle();
-        //         } elseif ($a2 == $b2) {
-        //             fiddle();
-        //         } else {
-        //             fiddle();
-        //         }
-        //     } elseif ($c == $d) {
-        //         while ($c == $d) {
-        //             fiddle();
-        //         }
-        //     } elseif ($e == $f) {
-        //         for ($n = 0; $n < $h; $n++) {
-        //             fiddle();
-        //         }
-        //     } else {
-        //         switch ($z) {
-        //             case 1:
-        //                 fiddle();
-        //                 break;
-        //             case 2:
-        //                 fiddle();
-        //                 break;
-        //             case 3:
-        //                 fiddle();
-        //                 break;
-        //             default:
-        //                 fiddle();
-        //                 break;
-        //         }
-        //     }
-        // }
-
         public function example2 () {
             print ('código 239r8-123rmj0-238r0123b0r');
         }
     }
 
 
-    $novo = new Contato ('teste', 'av 12 de agosto, n 123', '55-98765 4321', '');
+    $novo = new Contato ([
+        'nome' => 'teste',
+        'endereco' => 'av 12 de agosto, n 123',
+        'telefone' => '55-98765 4321'
+    ]);
 ?>
