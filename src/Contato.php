@@ -11,9 +11,9 @@
         public function getTelefone () : string {
             return $this->telefone;
         }
-        // public function getEmail () : string {
-        //     return $this->email;
-        // }
+        public function getEmail () : string {
+            return $this->email;
+        }
 
         public function codigo () : void {
             if (strpos ($this->email, '@') === false) {
@@ -42,148 +42,42 @@
         }
 
 
-        public function example1 () {
-            if ($a == $b) {
-                if ($a1 == $b1) {
-                    fiddle();
-                } elseif ($a2 == $b2) {
-                    fiddle();
-                } else {
-                    fiddle();
-                }
-            } elseif ($c == $d) {
-                while ($c == $d) {
-                    fiddle();
-                }
-            } elseif ($e == $f) {
-                for ($n = 0; $n < $h; $n++) {
-                    fiddle();
-                }
-            } else {
-                switch ($z) {
-                    case 1:
-                        fiddle();
-                        break;
-                    case 2:
-                        fiddle();
-                        break;
-                    case 3:
-                        fiddle();
-                        break;
-                    default:
-                        fiddle();
-                        break;
-                }
-            }
-        }
+        // public function example1 () {
+        //     if ($a == $b) {
+        //         if ($a1 == $b1) {
+        //             fiddle();
+        //         } elseif ($a2 == $b2) {
+        //             fiddle();
+        //         } else {
+        //             fiddle();
+        //         }
+        //     } elseif ($c == $d) {
+        //         while ($c == $d) {
+        //             fiddle();
+        //         }
+        //     } elseif ($e == $f) {
+        //         for ($n = 0; $n < $h; $n++) {
+        //             fiddle();
+        //         }
+        //     } else {
+        //         switch ($z) {
+        //             case 1:
+        //                 fiddle();
+        //                 break;
+        //             case 2:
+        //                 fiddle();
+        //                 break;
+        //             case 3:
+        //                 fiddle();
+        //                 break;
+        //             default:
+        //                 fiddle();
+        //                 break;
+        //         }
+        //     }
+        // }
 
         public function example2 () {
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
-            print ('código 239r8-123rmj0-238r0123b0r');
             print ('código 239r8-123rmj0-238r0123b0r');
         }
     }
