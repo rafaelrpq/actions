@@ -25,4 +25,4 @@ jobs:
       # uses: StephaneBour/actions-php-cpd@4b842d8ecc9f9a6a1abce48b78590e50eed3715b
       uses: StephaneBour/actions-php-cpd@8.1
       with:
-        dir: './src'
+        dir: 'src/'
