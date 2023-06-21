@@ -38,8 +38,8 @@
                 exit (1);
             }
 
-
-            print ('código asfasdfasdf');
+            $teste = 5 + 4;
+            print ('código asfasdfasdf {$teste}');
             /*
                 codigo a ser executado
             */
