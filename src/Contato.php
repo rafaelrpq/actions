@@ -53,6 +53,9 @@
 
             print ('código 239r8-123rmj0-238r0123b0r');
 
+            if (strlen ($this->getNome) > 0) {
+                echo "teste";
+            }
             /*
                 codigo a ser executado
             */
