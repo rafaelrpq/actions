@@ -38,8 +38,8 @@
                 exit (1);
             }
 
-
-            print ('código asfasdfasdf');
+            $teste = 5 + 4;
+            print ('código asfasdfasdf {$teste}');
             /*
                 codigo a ser executado
             */
@@ -63,6 +63,10 @@
 
         public function example2 () : void {
             print ('código 239r8-123rmj0-238r0123b0r');
+        }
+
+        public static function Teste () : void {
+            echo "metodo estatico";
         }
     }
 
