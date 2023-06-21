@@ -1,3 +1,4 @@
+# arquivos e diretórios a serem ignorados em cada commit
 *~
 
 /vendor/
