@@ -64,6 +64,10 @@
         public function example2 () : void {
             print ('código 239r8-123rmj0-238r0123b0r');
         }
+
+        public static function Teste () : void {
+            echo "metodo estatico";
+        }
     }
 
 
