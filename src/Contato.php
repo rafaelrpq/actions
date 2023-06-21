@@ -37,9 +37,6 @@
                 print ('email invalido');
                 exit (1);
             }
-
-            $teste = 5 + 4;
-            print ('código asfasdfasdf {$teste}');
             /*
                 codigo a ser executado
             */
