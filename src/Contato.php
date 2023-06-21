@@ -48,7 +48,7 @@
                 exit (1);
             }
 
-            print ('código 239r8-123rmj0-238r0123b0r');
+            print ('código 239r8-123rmj0-238r0123b0r'. $this->getTelefone());
 
             if (strlen ($this->getNome()) > 0) {
                 echo "teste";
