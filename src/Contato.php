@@ -46,6 +46,11 @@
          }
 
          public function codigoRepetido () : void {
+
+             if (!strpos ($this->email, '@')){
+                throw new InvalidArgumentException('Email inválido');
+             }
+
              if (strlen($this->getNome()) > 0){
                  echo "teste: ".$this->getNome();
              }
@@ -53,9 +58,9 @@
          }
 
          public function example2(): void {
+            if (!strpos ($this->email, '@')){
+               throw new InvalidArgumentException('Email inválido');
+            }
             echo "código 239r8-123rmj0-238r0123b0r {$this->getNome()}";
-             if (!strpos($this->email, '@')){
-                throw new InvalidArgumentException('Email inválido');
-             }
          }
      }
