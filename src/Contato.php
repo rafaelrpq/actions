@@ -6,9 +6,6 @@
         private string $telefone;
         private string $email;
 
-        /**
-         * @param array<string> $contato
-         */
         public function __construct (array $contato = []) {
             $this->nome = $contato['nome'];
             $this->endereco = $contato['endereco'];
