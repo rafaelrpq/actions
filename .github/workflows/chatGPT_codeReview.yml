@@ -1,6 +1,6 @@
 on: [pull_request]
 
-name: ChatGPT CodeReview
+name: ChatGPT Integration
 
 jobs:
   chatgpt_comment:
