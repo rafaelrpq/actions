@@ -3,6 +3,7 @@ name: ChatGPT CodeReviewer
 permissions:
   contents: read
   pull-requests: write
+  push: write
 
 on:
   pull_request:
