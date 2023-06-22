@@ -1,6 +1,5 @@
 <?php
     class Contato {
-        // public function __construct (private string $nome, private string $endereco, private string $telefone, private string $email) {}
 
         private string $nome;
         private string $endereco;
@@ -37,9 +36,6 @@
                 print ('email invalido');
                 exit (1);
             }
-            /*
-                codigo a ser executado
-            */
         }
 
         public function codigoRepetido () : void {
@@ -53,9 +49,6 @@
             if (strlen ($this->getNome()) > 0) {
                 echo "teste: ".$this->getNome();
             }
-            /*
-                codigo a ser executado
-            */
         }
 
         public function example2 () : void {
