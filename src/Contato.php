@@ -12,6 +12,9 @@
              $this->email = $email;
          }
 
+         /*
+         * @param array<string> $contato
+         */
          public static function fromArray(array $contato): Contato{
              if (!isset($contato['nome'], $contato['endereco'], $contato['telefone'], $contato['email'])){
                 throw new InvalidArgumentException("Contato array must have keys 'nome', 'endereco', 'telefone' and 'email'");
@@ -39,7 +42,7 @@
              if (!strpos ($this->email, '@')){
                 throw new InvalidArgumentException('Email inválido');
              }
-             //codigo a ser executado
+             // TODO
          }
 
          public function codigoRepetido () : void {
@@ -50,7 +53,7 @@
              if (strlen($this->getNome()) > 0){
                  echo "teste: ".$this->getNome();
              }
-             //codigo a ser executado
+             // TODO
          }
 
          public function example2(): void {
