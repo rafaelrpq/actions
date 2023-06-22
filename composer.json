@@ -1,6 +1,6 @@
 {
     "name": "rafaelrpq/actions",
-    "description": "teste de CI no github actions",
+    "description": "teste de CI com workflow no github actions",
     "type": "project",
     "autoload": {
         "psr-4": {
