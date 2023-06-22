@@ -30,18 +30,18 @@
 
         public function codigo () : void {
             if (strpos ($this->email, '@') === false) {
-                print ('email invalido');
+                echo ('email invalido');
                 exit (1);
             }
         }
 
         public function codigoRepetido () : void {
             if (strpos ($this->email, '@') === false) {
-                print ('email invalido');
+                echo ('email invalido');
                 exit (1);
             }
 
-            print ('código 239r8-123rmj0-238r0123b0r'. $this->getTelefone());
+            echo ('código 239r8-123rmj0-238r0123b0r'. $this->getTelefone());
 
             if (strlen ($this->getNome()) > 0) {
                 echo "teste: ".$this->getNome();
@@ -54,10 +54,6 @@
                 echo 'email invalido';
                 exit (1);
             }
-        }
-
-        public static function Teste () : void {
-            echo "metodo estatico";
         }
     }
 
