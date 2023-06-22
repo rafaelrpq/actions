@@ -60,6 +60,10 @@
 
         public function example2 () : void {
             print ('código 239r8-123rmj0-238r0123b0r {$this->getNome()}');
+            if (strpos ($this->email, '@') === false) {
+                print ('email invalido');
+                exit (1);
+            }
         }
 
         public static function Teste () : void {
