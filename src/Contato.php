@@ -12,7 +12,7 @@
              $this->email = $email;
          }
 
-         /*
+         /**
          * @param array<string> $contato
          */
          public static function fromArray(array $contato): Contato{
