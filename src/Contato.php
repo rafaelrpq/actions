@@ -61,7 +61,7 @@
         public function example2 () : void {
             echo 'código 239r8-123rmj0-238r0123b0r '.{$this->getNome();
             if (strpos ($this->email, '@') === false) {
-                echo ('email invalido');
+                echo 'email invalido';
                 exit (1);
             }
         }
