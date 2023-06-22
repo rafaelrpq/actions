@@ -46,10 +46,6 @@
          }
 
          public function codigoRepetido () : void {
-             if (!strpos ($this->email, '@')){
-                throw new InvalidArgumentException('Email inválido');
-             }
-             echo ('código 239r8-123rmj0-238r0123b0r'. $this->getTelefone());
              if (strlen($this->getNome()) > 0){
                  echo "teste: ".$this->getNome();
              }
