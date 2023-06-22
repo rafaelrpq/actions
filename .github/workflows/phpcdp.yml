@@ -1,28 +1,28 @@
-name: PHP-CDP
+# name: PHP-CDP
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+# on:
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
 
-permissions:
-  contents: read
+# permissions:
+#   contents: read
 
-jobs:
-  build:
+# jobs:
+#   build:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v3
+#     steps:
+#     - uses: actions/checkout@v3
 
-    - name: Validate composer.json and composer.lock
-      run: composer install
+#     - name: Validate composer.json and composer.lock
+#       run: composer install
 
-    - name: PHP Copy Paste Detector
-      # You may pin to the exact commit or the version.
-      # uses: StephaneBour/actions-php-cpd@4b842d8ecc9f9a6a1abce48b78590e50eed3715b
-      uses: StephaneBour/actions-php-cpd@8.1
-      with:
-        args: './src/'
+#     - name: PHP Copy Paste Detector
+#       # You may pin to the exact commit or the version.
+#       # uses: StephaneBour/actions-php-cpd@4b842d8ecc9f9a6a1abce48b78590e50eed3715b
+#       uses: StephaneBour/actions-php-cpd@8.1
+#       with:
+#         args: './src/'
