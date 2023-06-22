@@ -51,7 +51,7 @@
             print ('código 239r8-123rmj0-238r0123b0r'. $this->getTelefone());
 
             if (strlen ($this->getNome()) > 0) {
-                echo "teste";
+                echo "teste: $this->getNome";
             }
             /*
                 codigo a ser executado
@@ -59,7 +59,7 @@
         }
 
         public function example2 () : void {
-            print ('código 239r8-123rmj0-238r0123b0r');
+            print ('código 239r8-123rmj0-238r0123b0r {$this->getNome()}');
         }
 
         public static function Teste () : void {
