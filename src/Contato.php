@@ -5,7 +5,7 @@
          private string $telefone;
          private string $email;
 
-         private function __construct(string $nome, string $endereco, string $telefone, string $email){
+         private function __construct(string $nome, string $endereco, string $telefone, string $email) {
              $this->nome = $nome;
              $this->endereco = $endereco;
              $this->telefone = $telefone;
@@ -15,7 +15,7 @@
          /**
          * @param array<string> $contato
          */
-         public static function fromArray(array $contato): Contato{
+         public static function fromArray(array $contato) : Contato {
              if (!isset($contato['nome'], $contato['endereco'], $contato['telefone'], $contato['email'])){
                 throw new InvalidArgumentException("Contato array must have keys 'nome', 'endereco', 'telefone' and 'email'");
              }
@@ -46,8 +46,8 @@
          }
 
          public function codigoRepetido () : void {
-             if (strlen($this->getNome()) > 0){
-                 echo "teste: ".$this->getNome();
+             if (!strpos ($this->email, '@')){
+                throw new InvalidArgumentException('Email inválido');
              }
              // TODO
          }
